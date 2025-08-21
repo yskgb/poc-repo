@@ -1,9 +1,0 @@
-name: Intermediate environment variables
-on: push
-jobs:
-    run:
-        runs-on: ubuntu-latest
-        env:
-            ACTOR: ${{ github.actor }}               # ジョブレベルでの環境変数を定義
-        steps:
-            - run: echo "${ACTOR}"    # シェルコマンドからジョブレベルの環境変数を参照
