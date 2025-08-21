@@ -1,4 +1,4 @@
-name: Literals
+name: JSON functions
 on: push
 jobs:
     dump:
